@@ -199,11 +199,11 @@ Output: {요약문}
 
 ```mermaid
 graph TD
-A[시드 Prompt Pool (175개)] --> B[Instruction Generation]
-B --> C[Task Classification]
-C --> D[Instance Generation (답변 생성)]
-D --> E[Filtering & Post-Processing]
-E --> F[SFT 학습 데이터 완성]
+    A["시드 Prompt Pool - 175개"] --> B["Instruction Generation"]
+    B --> C["Task Classification"]
+    C --> D["Instance Generation (답변 생성)"]
+    D --> E["Filtering & Post-Processing"]
+    E --> F["SFT 학습 데이터 완성"]
 ```
 
 ---
